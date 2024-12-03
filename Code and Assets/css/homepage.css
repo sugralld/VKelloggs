@@ -1,0 +1,117 @@
+.oval-top-picks{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 0px;
+    width: 100%;
+    height: 50px;
+    background: #FEDF99;
+    filter: drop-shadow(0px 0px 5px #230D3B);
+    border-style: solid;
+    border-width: thin;
+    border-color: #230D3B;
+}
+
+.top-picks{
+    align-content: center;
+    text-align: center;
+    font-family: system-ui;
+    color: #230D3B;
+}
+
+.product-showcase{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 30px;
+    flex-wrap: wrap;
+}
+
+.showcase1,.showcase2,.showcase3{
+    width: 90px;
+    filter: drop-shadow(0px 0px 5px #230D3B);
+}
+
+.showcase3{
+    width: 110px;
+}
+
+.showcase{
+    text-align: center;
+    filter: drop-shadow(0px 0px 5px #230D3B);
+    margin: 10px;
+    height: 270px;
+    width: 220px;
+    padding: 0px;
+    background: #F5F5F5 ;
+    border-radius: 20px;
+    /* gap: 10px; */
+}
+
+.imgborder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4px;
+    height: 160px;
+}
+
+.bestseller{
+    background-color: #CC2828;
+    color: #F5F5F5;
+    margin: 0;
+    padding: 3%;
+    border-radius: 50px;
+}
+
+.bsproductname{
+    margin-top: 0;
+}
+
+.bestrecipe{
+    margin: 8px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 360px;
+    background-color: #F5F5F5;
+    border-radius: 20px;
+    filter: drop-shadow(0px 0px 5px #230D3B);
+}
+
+.recipeimg{
+    display: grid;
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+    padding-top: 0;
+    margin-top: 0%;
+    background-color: #CC2828;
+}
+
+.recipetutor{
+    padding: 20px 20px;
+}
+
+.fontbestrecipe{
+    color: #F5F5F5;
+}
+
+@media (max-width: 1024px) {
+    html{
+        font-size: 90%;
+    }
+}
+
+@media (max-width: 768px){
+    .product-showcase{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 8%;
+        grid-template-columns: auto;
+    }
+}

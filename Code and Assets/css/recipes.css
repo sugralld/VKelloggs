@@ -1,0 +1,79 @@
+
+.recipe-showcase{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+    padding: 25px 15px;
+    padding-top: 10px;
+    flex-wrap: wrap;
+}
+
+
+.showcase{
+    text-align: left;
+    filter: drop-shadow(0px 0px 1px #230D3B);
+    margin: 10px;
+    height: max-content;
+    width: 99.9%;
+    background: #F5F5F5 ;
+    border-radius: 20px;
+    font-size: smaller;
+}
+
+.imgborder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4px;
+    height: 110px;
+}
+
+.title{
+    display: flex;
+    background-color: #F89521;
+    height: 37px;
+    align-items: center;
+    justify-content: center;
+    color: #230D3B;
+    margin: 3px;
+    padding: 0;
+    border-radius: 50px;
+}
+
+
+.recipe-header{
+    width: 100%;
+    margin: 0;
+    color: #F5F5F5;
+    background-color: #CC2828;
+    filter: drop-shadow(0px 0px 1px #230D3B);
+    text-align: center;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+
+.recipe-content{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.recipe-desc{
+    font-weight: bold;
+    text-align: center;
+}
+
+.ingnhow{
+    font-weight: bold;
+    text-align: justify;
+}
+
+@media (max-width: 768px){
+    .recipe-showcase{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 8%;
+        grid-template-columns: auto;
+    }
+}
