@@ -1,0 +1,41 @@
+.header{
+    background-image: url(../asset/copydesktop-wallpaper-kellogg-s-frosted-flakes-breakfast-cereal-original-33-5-oz-box.jpg);
+    display: block;
+    padding: 50px;
+    text-align: center;
+    color: #FEDF99;
+}
+
+.form{
+    background: linear-gradient(0.25turn,#CC2828,#F07070,#CC2828); 
+    padding: 45px;
+    font-weight: bold;
+    color: #FEDF99;
+}
+
+.form label{
+    display: block;
+}
+
+.form input[type="text"],
+.form button {
+    width: calc(100% - 20px);
+    max-width: 100%; /* Mencegah input melampaui layar */
+    margin: 0 auto 15px; /* Jarak antar elemen */
+    padding: 5px; /* Tambahkan padding untuk kenyamanan pengguna */
+    box-sizing: border-box; /* Termasuk padding dalam perhitungan lebar */
+    font-family: Arial, sans-serif; /* Ubah font */
+    font-size: 16px;
+}
+
+.form .checkbox-container{
+    display: flex;
+}
+
+.form .button-container{
+    background-color: black;
+    padding: 0px;
+    margin: 0;
+    border: ;
+    display: block;
+}

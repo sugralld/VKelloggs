@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Vkellogg's</title>
+    <link rel="stylesheet" href="../css/headerfooternavbar.css">
+    <link rel="stylesheet" href="../css/contactus.css">
+</head>
+<body>
+    <!-- header navigation -->
+    <header>
+        <nav>
+            <div class="navbar-menu">
+                <div><a class="navbar-link1" href="../html/products.html">Products</a></div>
+                <div><a class="navbar-link2" href="../html/recipes.html">Recipes</a></div>
+                <div class="navbar-link3"><a href="../html/homepage.html"><img src="../asset/Screenshot 2024-05-30 105858.png" width="100" height="45" alt=""></a></div>
+                <div><a class="navbar-link4" href="../html/aboutus.html">About Us</a></div>
+                <div><a class="navbar-link5" href="../html/contactus.html">Contact Us</a></div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Header Contact Us -->
+    <div class="header">
+        <h1>Contact Us</h1>
+    </div>
+
+    <!-- Form Contact Us -->
+     <div class="form">
+        <form action="" method = "post">
+            <div class="formformat">
+                <label for="firstname">First name: </label>
+                <input type="text" name="firstname" id="firstname">
+                <br>
+
+                <label for="lastname">Last name: </label>
+                <input type="text" name="lastname" id="lastname">
+                <br>
+    
+                <label for="email">Email address: </label>
+                <input type="text" name="email" id="email">
+                <br>
+    
+                <label for="phonenum">Phone number: </label>
+                <input type="text" name="phonenum" id="phonenum">
+                <br>
+
+            <label for="message">Message: </label>
+            <input type="text" name="message" id="message">
+            <br>
+            <div class="checkbox">
+                <input type="checkbox" name="agreement" id="agreement">
+                <label for="agreement">Done</label>    
+            </div>
+            <br>
+            <div class="button-container">
+                <button type="button" onclick="validateData()">Submit</button>
+            </div>
+            </div>
+        </form>
+        <script src="../js/contactus.js"></script>
+     </div>
+
+     <!-- Footer -->
+    <footer class="footer">
+        <div class="upperfooter">
+            <div class="footert1"><p>St. Boulevar Round, WA No.99,Summarecon Archantum, Perfettu, Hene, West Java 99475</p></div>
+            <div class="footert2"><img src="../asset/Screenshot 2024-05-30 105858.png" width="100" height="45" alt=""></div>
+            <div class="footert3">
+                <p class="footert4">Have some questions / need help? Contact us below!</p>
+                <a href="../html/contactus.html"><img src="../asset/image-removebg-preview (27).png" width="30" height="auto" alt=""></a>
+            </div>
+        </div>
+        <div class="lowerfooter">
+            <p class="textlowerfooter">Vkellogg’s 2024  -  All rights reserved.
+            </p>
+        </div>
+     </footer>
+
+</body>
+</html>
